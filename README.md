@@ -6,5 +6,6 @@ Thanks to Aaron, ABB, Adrian (adrrob), AIRay, Alex, Alexander, Alin, andjela, An
 
 Special thanks to Django van der Plas, DROP TABLE, Penguinn, Ghosty, Tijs and Duckle for helping me with the mathematics.
 
+The 2024 credits are Lars, Amit, Chloé, :), Jaume Alcón Llosada, Bram, José, Jasper Van der Veken, Jake Hekstra, Noname Provided, Pedro Hernández , Tudor Safir, Jakub Balewicz, Jakub Balewicz, Leyre, Soufian, Alfonso , Savage granny, Toby van Bergen, Devon, Irina C.C.🫶🏻🩷, Andrei, scott, Theo, Cricket, wiki, Bram Jespers, jonas, Tommaso Di Pompeo
 
 Please do bother me if i forgot your name. I value your contributions a lot and I believe you should get credit for your help in making this possible.
