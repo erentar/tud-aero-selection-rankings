@@ -1,0 +1,28 @@
+project:
+  render:
+    - report.ipynb
+    
+documentclass: scrartcl
+title: Analysis of rank-score data for the TU Delft Aerospace Selection Process
+author: erentar2002
+date: 2023-04-15
+thanks: "Special thanks to Django van der Plas and everyone on the TU Delft Study server. If at any time the word \"we\" is used, it refers to my conversations with various people in the server."
+abstract: "The exam scores on the TU Delft Aerospace Selection process are released a day before the ranks are. This day of waiting is usually extremely painful and to get around that, I have collected and compiled data from various discord and whatsapp channels to produce this document. I dont know what i am doing, so take it with a huge pinch of salt, and please do suggest better methodology. Compiling this data will be only the simplest step we can take in understanding how the entrance process really works, as very little information about it is released to the public."
+execute:
+  echo: false
+  cache: true
+format:
+  pdf:
+    fig-width: 7
+    fig-height: 5
+keep-tex: true
+keep-md: true
+pdf-engine: pdflatex
+template-partials:
+  - title.tex
+  - toc.tex
+fontfamily: mlmodern
+papersize: a4
+toc: true
+toc-title: Contents
+engine: jupyter
