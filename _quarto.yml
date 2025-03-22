@@ -16,8 +16,10 @@ geometry:
     - margin=3cm
 
 header-includes: |
+    \usepackage{mlmodern}
+    \usepackage[lf,scale=0.96]{FiraMono}
     \usepackage[iso,english,ngerman]{isodate}
-    \usepackage[default,oldstyle,scale=0.95]{opensans}
+    \usepackage[default]{opensans}
 
 title: Analysis of rank-score data for the TU Delft Aerospace Selection Process
 author: erentar2002
