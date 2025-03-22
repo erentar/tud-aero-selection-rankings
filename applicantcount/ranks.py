@@ -158,3 +158,4 @@ plt.xlim(dataX[0]-1,dataX[-1]+2)
 plt.show()
 
 # %%
+fig.savefig("ranks.png",bbox_inches='tight')
