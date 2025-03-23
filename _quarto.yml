@@ -29,8 +29,8 @@ abstract: "The exam scores on the TU Delft Aerospace Selection process are relea
 execute:
     echo: false
     cache: true
-keep-tex: true
-keep-md: true
+# keep-tex: true
+# keep-md: true
 pdf-engine: pdflatex
 template-partials:
     - title.tex
