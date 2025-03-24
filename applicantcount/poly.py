@@ -124,6 +124,12 @@ plt.scatter(
     color="green",
     s=60.0,
     zorder=10)
+plt.text(0.02,0.84,
+    "Green points were derived from \napplicant and MOOC counts",
+    bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.5),
+    transform=ax.transAxes
+    )
+
 
 plt.scatter(
     _filtered["year"],
