@@ -1,7 +1,6 @@
 .ipynb_checkpoints/
 /.quarto/
-applicantcount/applicants.ipynb
-applicantcount/ranks.ipynb
+applicantcount/*.ipynb
 report.pdf.md
 report.tex
 report_files/
