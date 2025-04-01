@@ -2,3 +2,6 @@
 /.quarto/
 applicantcount/applicants.ipynb
 applicantcount/ranks.ipynb
+report.pdf.md
+report.tex
+report_files/
