@@ -140,7 +140,7 @@ plt.scatter(
     zorder=10)
 for i,_ in enumerate(ranks["year"]):
     plt.annotate(
-        ranks["finished"][i],
+        int(ranks["finished"][i]),
         (ranks["year"][i],ranks["finished"][i]-60)
     )
 
@@ -165,6 +165,37 @@ ax.set_xticklabels(labels)
 
 # plt.xlim(2000,2030)
 # plt.ylim(1250,3000)
+
+pred = [
+    [applicants["year"].iloc[-1]+1,fncFitApplicants(applicants["year"].iloc[-1]+1)],
+    [ranks["year"].iloc[-1]+1,fncFitRanks(ranks["year"].iloc[-1]+1)]
+]
+
+plt.scatter(
+    pred[0][0],
+    pred[0][1],
+    marker="o",
+    color="brown",
+    s=60.0,
+    zorder=10
+)
+
+plt.scatter(
+    pred[1][0],
+    pred[1][1],
+    marker="o",
+    color="brown",
+    s=60.0,
+    zorder=10
+)
+
+for i in pred:
+    plt.annotate(
+        int(i[1]),
+        (i[0]+0.06,i[1]-60)
+    )
+
+
 plt.show()
 
 # %%
