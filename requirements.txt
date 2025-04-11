@@ -1,3 +1,5 @@
+jupyterlab
+jupytext
 pandas
 odfpy
 scikit-learn
