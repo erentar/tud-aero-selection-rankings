@@ -154,6 +154,7 @@ plt.legend()
 ax.xaxis.set_ticks(range(dataX[0]-1,dataX[-1]+2))
 plt.xlim(dataX[0]-1,dataX[-1]+2)
 
+
 labels = [item.get_text() for item in ax.get_xticklabels()]
 for (key,value) in enumerate(labels):
     try:
@@ -170,6 +171,11 @@ pred = [
     [applicants["year"].iloc[-1]+1,fncFitApplicants(applicants["year"].iloc[-1]+1)],
     [ranks["year"].iloc[-1]+1,fncFitRanks(ranks["year"].iloc[-1]+1)]
 ]
+
+plt.ylim(
+    round(fncFitRanks(applicants["year"].iloc[0]-1)-100,-2),
+    round(pred[0][1]+(pred[0][1] - ranks["finished"].iloc[0])*0.15,-2)
+)
 
 plt.scatter(
     pred[0][0],
